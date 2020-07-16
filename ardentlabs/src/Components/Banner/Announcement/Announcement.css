@@ -1,0 +1,17 @@
+#announcement-text
+{
+    margin: 44px 0px 60px;
+}
+
+h2
+{
+    font-family: "Avenir LT Light", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+
+span
+{
+    text-decoration: underline;
+}

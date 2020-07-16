@@ -1,0 +1,35 @@
+@font-face
+{
+    font-family: "DIN Next Light";
+    src: url("Assets/fonts/dinLight.woff") format("woff");
+}
+
+@font-face
+{
+    font-family: "Avenir LT Light";
+    src: url("Assets/fonts/avenirLt35Light.woff") format("woff");
+}
+
+@font-face
+{
+    font-family: "Neue Helvetica Light";
+    src: url("Assets/fonts/neueHelvetica45Light.woff") format("woff");
+}
+
+body
+{
+    margin: 0;
+    font-family: "DIN Next Light", sans-serif;
+    height: 100%;
+}
+
+video
+{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
