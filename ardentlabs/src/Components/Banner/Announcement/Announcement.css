@@ -1,12 +1,9 @@
-#announcement-text
+.announcement
 {
-    margin: 44px 0px 60px;
-}
-
-h2
-{
+    margin: 70px 0;
     font-family: "Avenir LT Light", sans-serif;
     font-size: 24px;
+    font-weight: bold;
     text-align: center;
     color: #ffffff;
 }

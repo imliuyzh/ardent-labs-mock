@@ -1,0 +1,48 @@
+*:focus
+{
+    outline: none;
+}
+
+.slideshow
+{
+    position: absolute !important;
+    right: calc((100% - 980px) * 0.5);
+    width: 454px !important;
+    height: 613px !important;
+}
+
+.control
+{
+    fill: #FFFFFF;
+    cursor: pointer;
+    width: 15px;
+}
+
+.control:hover
+{
+    opacity: 0.6;
+}
+
+#prev-button
+{
+    margin-left: 17.5px;
+}
+
+#next-button
+{
+    margin-right: 17.5px;
+    transform: scaleX(-1);
+}
+
+.slider-control-bottomcenter
+{
+    margin-bottom: 31.5px;
+}
+
+button
+{
+    margin: 0 8px;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 50%;
+}

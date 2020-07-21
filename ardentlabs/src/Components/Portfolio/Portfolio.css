@@ -1,0 +1,78 @@
+#portfolio
+{
+    margin: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+    z-index: 2;
+}
+
+#title
+{
+    height: 172px;
+}
+
+h4
+{
+    margin-top: 105px;
+    margin-left: calc((100% - 980px) * 0.5);
+    font-size: 88px;
+    font-family: "DIN Next Light", sans-serif;
+    font-weight: normal;
+    color: #646666;
+}
+
+#image-container-1, #image-container-2
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#image-container-1
+{
+    height: 260px;
+    gap: 147px;
+}
+
+#image-container-2
+{
+    height: 353px;
+}
+
+#image-container-2a
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#ardent-logo
+{
+    width: 238px;
+    height: 170px;
+}
+
+#stem-for-all-logo
+{
+    width: 247px; 
+    height: 156px;
+}
+
+#chia-logo
+{
+    width: 226px;
+    height: 89px;
+}
+
+#peer-genius-logo
+{
+    width: 289px;
+    height: 194px;
+}
+
+#voluntu-logo
+{
+    width: 299px;
+    height: 156px;
+}
