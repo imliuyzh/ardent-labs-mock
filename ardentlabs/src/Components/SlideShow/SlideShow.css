@@ -9,6 +9,7 @@
     right: calc((100% - 980px) * 0.5);
     width: 454px !important;
     height: 613px !important;
+    z-index: 2;
 }
 
 .control

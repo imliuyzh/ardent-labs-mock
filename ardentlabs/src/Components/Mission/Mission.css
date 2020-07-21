@@ -1,0 +1,41 @@
+.mission-section
+{
+    background-color: #FFFFFF;
+    width: 100%;
+    position: relative;
+    top: 180px;
+}
+
+.title
+{
+    padding: 105px 0 0 0;
+    margin: 0 0 0 calc((100% - 980px) * 0.5);
+    font-size: 88px;
+    font-family: "DIN Next Light", sans-serif;
+    font-weight: normal;
+    line-height: 1em;
+    color: #646666;
+}
+
+.missions
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mission
+{
+    width: 20%;
+}
+
+#demo-video
+{
+    margin: 70px calc((100% - 980px) * 0.5) 0px;
+}
+
+#demo
+{
+    margin: 0 auto 129px;
+    width: 980px;
+    height: 552px;
+}

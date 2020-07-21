@@ -5,11 +5,11 @@ import "./SlideShow.css";
 import Carousel from "nuka-carousel";
 import { v4 } from "uuid";
 
-import FirstImage from "../../../Assets/img/slideshow1.jpg";
-import SecondImage from "../../../Assets/img/slideshow2.jpg";
-import ThirdImage from "../../../Assets/img/slideshow3.jpg";
+import FirstImage from "../../Assets/img/slideshow1.jpg";
+import SecondImage from "../../Assets/img/slideshow2.jpg";
+import ThirdImage from "../../Assets/img/slideshow3.jpg";
 
-const ids = [v4(), v4(), v4()];
+const IDS = [v4(), v4(), v4()];
 const ATTRIBUTES = 
 {
     autoplay: true,
@@ -39,7 +39,7 @@ const ATTRIBUTES =
         {
             paging.push(
                 <button
-                    key={ids[counter]}
+                    key={IDS[counter]}
                     style={{
                         width: (props.currentSlide === counter) ? "9px" : "6px",
                         height: (props.currentSlide === counter) ? "9px" : "6px",

@@ -1,0 +1,34 @@
+*
+{
+    font-family: "DIN Next Light";
+    font-weight: normal;
+}
+
+#mission-id
+{
+    margin: 0;
+    font-size: 260px;
+    color: #CCCCCA;
+}
+
+hr
+{
+    border: 0.2px solid rgba(66, 66, 66, 1);
+    width: 240px;
+    margin: 0 0 41px 0;
+}
+
+#mission-title
+{
+    margin: 0 0 41px 0;
+    font-size: 36px;
+    color: #0099FF;
+    line-height: normal;
+}
+
+#mission-description
+{
+    font-size: 18px;
+    color: #646666;
+    line-height: 1.3em;
+}

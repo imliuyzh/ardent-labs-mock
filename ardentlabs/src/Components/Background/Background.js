@@ -24,8 +24,7 @@ export default function Background()
     }
     
     return (
-        <video autoPlay muted loop disablePictureInPicture src={background} poster={BlueParticlesBG}>
-            <source type="video/mp4" />
-        </video>
+        <video autoPlay muted loop disablePictureInPicture id="background"
+            src={background} poster={BlueParticlesBG} type="video/mp4" />
     );
 }

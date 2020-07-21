@@ -3,6 +3,7 @@
     margin: 44px calc((100% - 980px) / 2) 25px;
     display: flex;
     align-items: flex-end;
+    z-index: 1;
 }
 
 #logo
@@ -19,7 +20,6 @@ nav
 
 .dropdown-menu
 {
-    position: relative;
     display: inline-block;
 }
 

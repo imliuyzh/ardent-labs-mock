@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin-right: 80px;
-    z-index: 50;
+    z-index: 2;
     width: 32px;
     height: 197px;
     position: fixed;
