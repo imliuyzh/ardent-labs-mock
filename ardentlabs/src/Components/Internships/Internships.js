@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./Internships.css";
+import InputForm from "./InputForm/InputForm";
 import Slide from "react-reveal/Slide";
 
 export default function Internships()
@@ -40,11 +41,7 @@ jump start your career in product management.
                     </h6>
                 </Slide>
                 
-                <div id="internship-contact-form">
-                    <input type="email" className="form" id="email" size="30" placeholder="Email" required />
-                    <textarea className="form" id="message" placeholder="Type your message here..." />
-                    <button id="submit">Submit</button>
-                </div>
+                <InputForm />
             </div>
         </section>
     );
