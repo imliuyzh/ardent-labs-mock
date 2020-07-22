@@ -15,9 +15,3 @@
     font-family: "Neue Helvetica Light";
     src: url("Assets/fonts/neueHelvetica45Light.woff") format("woff");
 }
-
-body
-{
-    margin: 0;
-    font-family: "DIN Next Light", sans-serif;
-}

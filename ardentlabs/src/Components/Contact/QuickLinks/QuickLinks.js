@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Link } from "react-router-dom";
+import ScrollIntoView from "react-scroll-into-view";
 import "./QuickLinks.css";
 
 export default function QuickLinks()
@@ -13,33 +14,33 @@ export default function QuickLinks()
             </div>
             
             <div id="quick-links">
-                <a href="#header-section" className="quick-link" id="home">
-                    Home
-                </a>
+                <ScrollIntoView selector="html">
+                    <span className="quick-link" id="home">Home</span>
+                </ScrollIntoView>
                 
                 <Link to="/software-engineering-remote-interns" className="quick-link">
                     Software Engineering Virtual Internship
                 </Link>
                 
-                <a href="#mission-section" className="quick-link">
-                    Mission
-                </a>
+                <ScrollIntoView selector="#mission-section">
+                    <span className="quick-link">Mission</span>
+                </ScrollIntoView>
                 
-                <a href="#about-section" className="quick-link">
-                    About
-                </a>
+                <ScrollIntoView selector="#about-section">
+                    <span className="quick-link">About</span>
+                </ScrollIntoView>
                 
-                <a href="#portfolio-section" className="quick-link">
-                    Portfolio
-                </a>
+                <ScrollIntoView selector="#portfolio-section">
+                    <span className="quick-link">Portfolio</span>
+                </ScrollIntoView>
                 
-                <a href="#internship-section" className="quick-link">
-                    Internships
-                </a>
+                <ScrollIntoView selector="#internship-section">
+                    <span className="quick-link">Internships</span>
+                </ScrollIntoView>
                 
-                <a href="#contact-section" className="quick-link">
-                    Contact
-                </a>
+                <ScrollIntoView selector="#contact-section">
+                    <span className="quick-link">Contact</span>
+                </ScrollIntoView>
             </div>
         </div>
     );

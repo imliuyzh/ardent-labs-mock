@@ -28,7 +28,7 @@ export default function Mission()
     ];
     
     return (
-        <section className="mission-section">
+        <section className="mission-section" id="mission-section">
             <h4 className="title">WHAT WE DO</h4>
             <div className="missions">
                 {MISSIONS.map((mission) => 

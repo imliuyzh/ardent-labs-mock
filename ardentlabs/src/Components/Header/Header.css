@@ -1,6 +1,6 @@
-#header
+#header-section
 {
-    margin: 44px calc((100% - 980px) / 2) 25px;
+    margin: 44px 0 25px calc((100% - 980px) / 2);
     display: flex;
     align-items: flex-end;
     z-index: 1;
@@ -11,10 +11,10 @@
     justify-self: start;
 }
 
-nav
+#links
 {
-    white-space: nowrap;
-    justify-self: end;
+    display: flex;
+    align-items: center;
     margin-left: 135px;
 }
 
@@ -49,7 +49,7 @@ nav
 {
     display: none;
     background-color: rgba(63, 96, 151, 0.6);
-    text-align: center;
+    margin: 0;
 }
 
 .dropdown-menu:hover .dropdown-content
@@ -59,10 +59,11 @@ nav
     z-index: 0;
 }
 
-.dropdown-content .link
+.dropdown-content *
 {
+    text-align: center;
     line-height: 29px;
-    padding: 0 0.5em;
+    padding: 0 0.2rem;
 }
 
 #home-link

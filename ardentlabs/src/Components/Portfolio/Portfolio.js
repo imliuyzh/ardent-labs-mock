@@ -11,7 +11,7 @@ import VoluntuLogo from "../../Assets/img/voluntu.png";
 export default function Portfolio()
 {
     return (
-        <section id="portfolio">
+        <section id="portfolio-section">
             <h4 id="portfolio-title">PORTFOLIO</h4>
             <div id="image-container-1">
                 <img src={ArdentLogo} id="ardent-logo" alt="Ardent Logo" />

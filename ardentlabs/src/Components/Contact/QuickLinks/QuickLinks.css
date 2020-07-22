@@ -34,6 +34,8 @@
 
 #quick-links .quick-link
 {
+    font-size: 14px;
+    cursor: pointer;
     color: #ffffff;
     text-decoration: none;
     line-height: 36px;

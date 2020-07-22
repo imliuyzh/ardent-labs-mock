@@ -1,41 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Link, Route, Switch} from "react-router-dom";
 import "./App.css";
-
-import Background from "./Components/Background/Background";
-import Navigator from "./Components/Navigator/Navigator";
-import Header from "./Components/Header/Header";
-import Banner from "./Components/Banner/Banner";
-import Mission from "./Components/Mission/Mission";
-import About from "./Components/About/About";
-import Portfolio from "./Components/Portfolio/Portfolio";
-import Internships from "./Components/Internships/Internships";
-import Contact from "./Components/Contact/Contact";
-import Credit from "./Components/Credit/Credit";
+import HomePage from "./Components/HomePage/HomePage";
 
 export default function App()
 {
-    return (
-        <>
-            <Background />
-            <Header />
-            <Banner />
-            
-            <aside>
-                <Navigator />
-            </aside>
-            
-            <main>
-                <Mission />
-                <About />
-                <Portfolio />
-                <Internships />
-            </main>
-            
-            <footer>
-                <Contact />
-                <Credit />
-            </footer>
-        </>
-    );
+    return <HomePage />;
 }
