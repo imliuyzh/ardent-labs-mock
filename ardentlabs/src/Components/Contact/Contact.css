@@ -1,0 +1,29 @@
+#contact-section
+{
+    position: relative;
+    top: 210px;
+    background-color: #646666;
+    margin-bottom: 26px;
+}
+
+#contact-content
+{
+    margin-left: calc((100% - 72vw) * 0.5);
+    display: flex;
+    justify-content: flex-start;
+}
+
+#footer-logo
+{
+    padding: 13px 42px 0 0;
+    width: 210px;
+    height: 43px;
+}
+
+#contact-sections
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: flex-end;
+}

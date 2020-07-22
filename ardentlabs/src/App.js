@@ -10,7 +10,8 @@ import Mission from "./Components/Mission/Mission";
 import About from "./Components/About/About";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Internships from "./Components/Internships/Internships";
-import Footer from "./Components/Footer/Footer";
+import Contact from "./Components/Contact/Contact";
+import Credit from "./Components/Credit/Credit";
 
 export default function App()
 {
@@ -32,7 +33,8 @@ export default function App()
             </main>
             
             <footer>
-                <Footer />
+                <Contact />
+                <Credit />
             </footer>
         </>
     );

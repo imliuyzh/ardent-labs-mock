@@ -33,14 +33,14 @@ jump start your career in product management.
                 </div>
             </div>
             
-            <div id="contact-section">
+            <div id="internship-contact-section">
                 <Slide left>
-                    <h6 id="contact-message">
+                    <h6 id="internship-contact-message">
                         Are you interested in developing a career and getting jobs at leading tech companies? Send us a short message and we will contact you shortly.
                     </h6>
                 </Slide>
                 
-                <div id="contact-form">
+                <div id="internship-contact-form">
                     <input type="email" className="form" id="email" size="30" placeholder="Email" required />
                     <textarea className="form" id="message" placeholder="Type your message here..." />
                     <button id="submit">Submit</button>
