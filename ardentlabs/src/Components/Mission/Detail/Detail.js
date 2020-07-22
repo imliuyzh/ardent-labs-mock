@@ -9,10 +9,12 @@ export default function Detail({ id, title, description })
             <h3 id="mission-id">
                 {id}
             </h3>
-            <hr />
+            <div id="line" />
+            
             <h5 id="mission-title">
                 {title}
             </h5>
+            
             <p id="mission-description">
                 {description}
             </p>

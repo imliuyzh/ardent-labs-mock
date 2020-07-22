@@ -2,6 +2,7 @@
 {
     font-family: "DIN Next Light";
     font-weight: normal;
+    text-align: left;
 }
 
 #mission-id
@@ -9,13 +10,15 @@
     margin: 0;
     font-size: 260px;
     color: #CCCCCA;
+    letter-spacing: -0.02em;
 }
 
-hr
+#line
 {
-    border: 0.2px solid rgba(66, 66, 66, 1);
-    width: 240px;
+    border-width: 1;
     margin: 0 0 41px 0;
+    height: 1px;
+    background-color: rgba(66, 66, 66, 1);
 }
 
 #mission-title
@@ -23,7 +26,6 @@ hr
     margin: 0 0 41px 0;
     font-size: 36px;
     color: #0099FF;
-    line-height: normal;
 }
 
 #mission-description

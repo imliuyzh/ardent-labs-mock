@@ -7,7 +7,7 @@ export default function Announcement()
 {
     return (
         <h2 className="announcement">
-            Looking for an internship? <span>Check out our Software Engineering Virtual Internship!</span>
+            Looking for an internship? <Link id="internship-link">Check out our Software Engineering Virtual Internship!</Link>
         </h2>
     );
 }

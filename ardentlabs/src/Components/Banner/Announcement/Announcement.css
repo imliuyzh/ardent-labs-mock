@@ -8,7 +8,10 @@
     color: #ffffff;
 }
 
-span
+#internship-link
 {
+    font-family: "Avenir LT Light", sans-serif;
     text-decoration: underline;
+    font-weight: bold;
+    color: #ffffff;
 }
