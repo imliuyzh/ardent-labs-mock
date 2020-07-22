@@ -10,11 +10,11 @@ import BlueParticlesBG from "../../Assets/img/blueParticlesBG.webp";
 export default function Background()
 {
     let background = null;
-    if (window.innerHeight <= 768)
+    if (window.innerWidth < 1280)
     {
         background = BlueParticles480p;
     }
-    else if (window.innerHeight <= 720)
+    else if (window.innerWidth >= 1280 && window.innerWidth < 1920)
     {
         background = BlueParticles720p;
     }

@@ -2,7 +2,7 @@
 {
     margin: 44px 0 25px calc((100% - 980px) / 2);
     display: flex;
-    align-items: flex-end;
+    align-items: baseline;
     z-index: 1;
 }
 
@@ -15,7 +15,7 @@
 {
     display: flex;
     align-items: center;
-    margin-left: 135px;
+    margin-left: 119px;
 }
 
 .dropdown-menu
