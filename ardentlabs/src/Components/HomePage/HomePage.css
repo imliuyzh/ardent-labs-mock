@@ -1,5 +1,10 @@
 body
 {
-    margin: 0;
     font-family: "DIN Next Light", sans-serif;
+}
+
+#home-content
+{
+    position: relative;
+    top: 0;
 }

@@ -6,21 +6,20 @@
     z-index: 1;
 }
 
-#logo
-{
-    justify-self: start;
-}
-
-#links
+#nav-links
 {
     display: flex;
-    align-items: center;
-    margin-left: 119px;
+    align-items: baseline;
+    position: relative;
+    left: 122px;
+    bottom: 5px;
 }
 
 .dropdown-menu
 {
     display: inline-block;
+    text-align: center;
+    line-height: 29px;
 }
 
 .dropdown-button
@@ -35,7 +34,7 @@
     font-family: "DIN Next Light";
     font-size: 14px;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #ffffff;
     padding: 0 20px 0 0;
     transition: color 0.4s ease 0s;
     cursor: pointer;
@@ -43,7 +42,7 @@
 
 .link:hover, .dropdown-menu:hover .dropdown-button
 {
-    color: #A2ECF3;
+    color: #a2ecf3;
 }
 
 .dropdown-content
@@ -62,12 +61,10 @@
 
 .dropdown-content *
 {
-    text-align: center;
-    line-height: 29px;
-    padding: 0 0.2rem;
+    padding: 0 3.5px;
 }
 
-#home-link
+.active
 {
-    color: #A2ECF3;
+    color: #a2ecf3;
 }

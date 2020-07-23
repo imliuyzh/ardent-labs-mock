@@ -36,7 +36,7 @@ export default function Mission()
             </div>
             
             <div id="demo-video">
-                <video autoPlay controls preload="true" playsInline id="demo">
+                <video autoPlay controls playsInline id="demo">
                     <source src={Demo} type="video/mp4" />
                 </video>
             </div>

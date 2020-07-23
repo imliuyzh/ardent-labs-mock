@@ -1,47 +1,47 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ScrollIntoView from "react-scroll-into-view";
+import { HashLink as Link } from "react-router-hash-link";
 import "./Navigator.css";
 
 export default function Navigator()
 {
     return (
         <div id="navigator">
-            <ScrollIntoView selector="html">
+            <Link smooth to="/#root">
                 <svg width="12" height="12" viewBox="0 0 24 24">
                     <circle cx="12" cy="12" r="10" />
                 </svg>
-            </ScrollIntoView>
+            </Link>
             
-            <ScrollIntoView selector="#mission-section">
+            <Link smooth to="/#mission-section">
                 <svg width="12" height="12" viewBox="0 0 24 24">
                     <circle cx="12" cy="12" r="10" />
                 </svg>
-            </ScrollIntoView>
+            </Link>
             
-            <ScrollIntoView selector="#about-section">
+            <Link smooth to="#about-section">
                 <svg width="12" height="12" viewBox="0 0 24 24">
                     <circle cx="12" cy="12" r="10" />
                 </svg>
-            </ScrollIntoView>
+            </Link>
             
-            <ScrollIntoView selector="#portfolio-section">
+            <Link smooth to="#portfolio-section">
                 <svg width="12" height="12" viewBox="0 0 24 24">
                     <circle cx="12" cy="12" r="10" />
                 </svg>
-            </ScrollIntoView>
+            </Link>
             
-            <ScrollIntoView selector="#internship-section">
+            <Link smooth to="#internship-section">
                 <svg width="12" height="12" viewBox="0 0 24 24">
                     <circle cx="12" cy="12" r="10" />
                 </svg>
-            </ScrollIntoView>
+            </Link>
             
-            <ScrollIntoView selector="#contact-section">
+            <Link smooth to="#contact-section">
                 <svg width="12" height="12" viewBox="0 0 24 24">
                     <circle cx="12" cy="12" r="10" />
                 </svg>
-            </ScrollIntoView>
+            </Link>
         </div>
     );
 }

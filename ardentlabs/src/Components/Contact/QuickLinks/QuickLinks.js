@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Link } from "react-router-dom";
-import ScrollIntoView from "react-scroll-into-view";
+import { useLocation } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import "./QuickLinks.css";
 
 export default function QuickLinks()
@@ -14,33 +14,33 @@ export default function QuickLinks()
             </div>
             
             <div id="quick-links">
-                <ScrollIntoView selector="html">
-                    <span className="quick-link" id="home">Home</span>
-                </ScrollIntoView>
+                <Link smooth to="/#header-section" className={(useLocation().pathname === "/") ? "quick-link active" : "quick-link"}>
+                    <span>Home</span>
+                </Link>
                 
-                <Link to="/software-engineering-remote-interns" className="quick-link">
+                <Link to="/software-engineering-remote-interns" className={(useLocation().pathname === "/software-engineering-remote-interns") ? "quick-link active" : "quick-link"}>
                     Software Engineering Virtual Internship
                 </Link>
                 
-                <ScrollIntoView selector="#mission-section">
-                    <span className="quick-link">Mission</span>
-                </ScrollIntoView>
+                <Link smooth to="/#mission-section" className="quick-link">
+                    <span>Mission</span>
+                </Link>
                 
-                <ScrollIntoView selector="#about-section">
-                    <span className="quick-link">About</span>
-                </ScrollIntoView>
+                <Link smooth to="/#about-section" className="quick-link">
+                    <span>About</span>
+                </Link>
                 
-                <ScrollIntoView selector="#portfolio-section">
-                    <span className="quick-link">Portfolio</span>
-                </ScrollIntoView>
+                <Link smooth to="/#portfolio-section" className="quick-link">
+                    <span>Portfolio</span>
+                </Link>
                 
-                <ScrollIntoView selector="#internship-section">
-                    <span className="quick-link">Internships</span>
-                </ScrollIntoView>
+                <Link smooth to="/#internship-section" className="quick-link">
+                    <span>Internships</span>
+                </Link>
                 
-                <ScrollIntoView selector="#contact-section">
-                    <span className="quick-link">Contact</span>
-                </ScrollIntoView>
+                <Link smooth to="/#contact-section" className="quick-link">
+                    <span>Contact</span>
+                </Link>
             </div>
         </div>
     );

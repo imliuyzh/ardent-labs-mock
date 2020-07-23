@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Link } from "react-router-dom";
-import ScrollIntoView from "react-scroll-into-view";
+import { useLocation } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import "./Header.css";
 import ArdentLabsLogo from "../../Assets/img/ardentLabsLogo.webp";
 
@@ -12,38 +12,41 @@ export default function Header()
             <Link to="/" className="link">
                 <img src={ArdentLabsLogo} alt="Ardent Labs Logo" id="logo" />
             </Link>
-            
-            <nav id="links">
-                <ScrollIntoView selector="html">
-                    <span className="link" id="home-link">Home</span>
-                </ScrollIntoView>
                 
-                <Link to="/software-engineering-remote-interns" className="link">
-                    Software Engineering Virtual Internship
+            <nav id="nav-links">
+                <Link to="/" className={(useLocation().pathname === "/") ? "link active" : "link"}>
+                    <span>Home</span>
                 </Link>
                 
-                <ScrollIntoView selector="#mission-section">
-                    <span className="link">Mission</span>
-                </ScrollIntoView>
+                <Link to="/software-engineering-remote-interns"
+                    className={(useLocation().pathname === "/software-engineering-remote-interns") ? "link active" : "link"}>
+                        <span>Software Engineering Virtual Internship</span>
+                </Link>
                 
-                <ScrollIntoView selector="#about-section">
-                    <span className="link">About</span>
-                </ScrollIntoView>
+                <Link smooth to="/#mission-section" className="link">
+                    <span>Mission</span>
+                </Link>
                 
-                <ScrollIntoView selector="#portfolio-section">
-                    <span className="link">Portfolio</span>
-                </ScrollIntoView>
+                <Link smooth to="/#about-section" className="link">
+                    <span>About</span>
+                </Link>
+                
+                <Link smooth to="/#portfolio-section" className="link">
+                    <span>Portfolio</span>
+                </Link>
                 
                 <div className="dropdown-menu">
                     <button className="dropdown-button">More...</button>
                     <div className="dropdown-content">
-                        <ScrollIntoView selector="#internship-section">
-                            <span className="link">Internships</span>
-                        </ScrollIntoView>
+                        <Link smooth to="/#internship-section" className="link">
+                            <span>Internships</span>
+                        </Link>
                         
-                        <ScrollIntoView selector="#contact-section">
+                        <br />
+                        
+                        <Link smooth to="/#contact-section" className="link">
                             <span className="link">Contact</span>
-                        </ScrollIntoView>
+                        </Link>
                     </div>
                 </div>
             </nav>
