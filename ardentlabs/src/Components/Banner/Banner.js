@@ -10,7 +10,7 @@ export default function Banner()
         <>
             <Announcement />
             <SlideShow />
-            <h2>
+            <h2 id="banner-heading">
                 Next
                 <br />
                 Generation

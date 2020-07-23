@@ -1,0 +1,61 @@
+#year-round-title
+{
+    font-size: 58px;
+    text-align: center;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 37px;
+    margin-right: calc((100% - 980px) * 0.5);
+}
+
+#year-round-section p
+{
+    margin: 0 calc((100% - 980px) * 0.5) 8px calc((100% - 980px) * 0.5);
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.2em;
+    color: #ffffff;
+}
+
+#year-round-container a[href="https://ead60fcc-40f3-4b04-9c66-485499008c9a.filesusr.com/ugd/132a22_10acddd2d98747ed97eae09cef4f048e.pdf"]
+{
+    text-decoration: none;
+}
+
+#year-round-flyer
+{
+    display: block;
+    margin: 2.4em auto 2.4em;
+    font-family: "Avenir LT Heavy";
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff;
+    width: 585px;
+    height: 69px;
+    background-color: transparent;
+    border: solid rgba(255, 255, 255, 1) 4px;
+    border-radius: 0%;
+    transition: color 0.4s ease 0s;
+}
+
+#year-round-flyer:hover
+{
+    background-color: #ffffff;
+    color: #3f6097;
+}
+
+#resume-text
+{
+    font-size: 21px;
+    line-height: 1.2em;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+#resume-text a
+{
+    color: #ffffff;
+    font-weight: 700;
+}

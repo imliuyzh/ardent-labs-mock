@@ -27,6 +27,7 @@
 {
     background-color: transparent;
     border: none;
+    margin-left: 0;
 }
 
 .link, .dropdown-button

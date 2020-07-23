@@ -12,6 +12,18 @@
 
 @font-face
 {
+    font-family: "Avenir LT Heavy";
+    src: url("Assets/fonts/avenirLt85Heavy.woff") format("woff");
+}
+
+@font-face
+{
     font-family: "Neue Helvetica Light";
     src: url("Assets/fonts/neueHelvetica45Light.woff") format("woff");
+}
+
+@font-face
+{
+    font-family: "Helvetica Roman";
+    src: url("Assets/fonts/helveticaRoman.woff") format("woff");
 }

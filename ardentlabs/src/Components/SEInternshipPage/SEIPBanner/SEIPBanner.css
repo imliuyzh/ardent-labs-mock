@@ -1,0 +1,30 @@
+#seip-banner
+{
+    margin: 52px 0 19px 0;
+}
+
+#seip-title
+{
+    font-size: 88px;
+    line-height: normal;
+    margin-bottom: 19px;
+    margin-right: calc((100% - 980px) * 0.5);
+}
+
+#seip-banner p
+{
+    margin: 0 calc((100% - 980px) * 0.5) 10px calc((100% - 980px) * 0.5);
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.2em;
+    color: #ffffff;
+}
+
+#seip-banner #line
+{
+    margin: 78px auto 0;
+    border-width: 4;
+    width: 261px;
+    height: 4px;
+    background-color: #ffffff;
+}
