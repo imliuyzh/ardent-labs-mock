@@ -3,12 +3,18 @@ import ReactDOM from "react-dom";
 import "./Information.css";
 
 import Mentor from "./Mentor/Mentor";
+import { v4 } from "uuid";
 
 import Question from "../../../Assets/img/question.svg";
 import Pencil from "../../../Assets/img/pencil.svg";
 import Laptop from "../../../Assets/img/laptop.svg";
 import Flag from "../../../Assets/img/flag.svg";
 import Person from "../../../Assets/img/person.svg";
+import Danial from "../../../Assets/img/danial.png";
+import Ryan from "../../../Assets/img/ryan.png";
+import Nisarg from "../../../Assets/img/nisarg.png";
+import Alvin from "../../../Assets/img/alvin.png";
+import Kuixi from "../../../Assets/img/kuixi.png";
 
 export default function Information()
 {
@@ -97,7 +103,7 @@ function displayProgramDate()
             </div>
             
             <p className="info-block-description">
-                This virtual internship takes place during the duration of UCI's spring quarter. The internship will end on June 5th, and interns who are interested in the summer internship will need to send in another application around May 10th. To learn more about about our summer internships, <a href="https://ead60fcc-40f3-4b04-9c66-485499008c9a.filesusr.com/ugd/132a22_10acddd2d98747ed97eae09cef4f048e.pdf" target="_blank"> click here</a>.
+                This virtual internship takes place during the duration of UCI's spring quarter. The internship will end on June 5th, and interns who are interested in the summer internship will need to send in another application around May 10th. To learn more about about our summer internships, <a href="https://ead60fcc-40f3-4b04-9c66-485499008c9a.filesusr.com/ugd/132a22_10acddd2d98747ed97eae09cef4f048e.pdf" target="_blank" rel="noopener noreferrer"> click here</a>.
             </p>
         </div>
     );
@@ -105,6 +111,40 @@ function displayProgramDate()
 
 function displayMentors()
 {
+    const MENTORS =
+    [
+        {
+            name: "DANIAL",
+            ardentStatus: "Software Engineer at Ardent Labs",
+            currentStatus: "Full time job offer at Western Digital",
+            icon: Danial
+        },
+        {
+            name: "RYAN",
+            ardentStatus: "Software Engineer at Ardent Labs",
+            currentStatus: "Full time job offer at Amazon",
+            icon: Ryan
+        },
+        {
+            name: "NISARG",
+            ardentStatus: "Software Engineer at Ardent Labs",
+            currentStatus: "Full time job offer at Amazon",
+            icon: Nisarg
+        },
+        {
+            name: "ALVIN",
+            ardentStatus: "Software Engineer at Ardent Labs",
+            currentStatus: "Accepted intern at Amazon",
+            icon: Alvin
+        },
+        {
+            name: "KUIXI",
+            ardentStatus: "Software Engineer at Ardent Labs",
+            currentStatus: "Accepted intern at Amazon",
+            icon: Kuixi
+        },
+    ];
+    
     return (
         <div className="info-block">
             <div className="info-section-heading">
@@ -117,6 +157,17 @@ function displayMentors()
             <p className="info-block-description">
                 Meet our lead software engineers, who have been offered full time jobs and internships from renowned tech companies such as Amazon and Western Digital:
             </p>
+            
+            <div id="mentors-container">
+                {MENTORS.map(
+                    (mentor) => <Mentor
+                                    key={v4()}
+                                    name={mentor.name}
+                                    ardentStatus={mentor.ardentStatus}
+                                    currentStatus={mentor.currentStatus}
+                                    icon={mentor.icon} />
+                )};
+            </div>
         </div>
     );
 }

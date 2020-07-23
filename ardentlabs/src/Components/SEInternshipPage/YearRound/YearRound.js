@@ -13,7 +13,7 @@ export default function YearRound()
             </p>
             
             <div id="year-round-container">
-                <a href="https://ead60fcc-40f3-4b04-9c66-485499008c9a.filesusr.com/ugd/132a22_10acddd2d98747ed97eae09cef4f048e.pdf" target="_blank">
+                <a href="https://ead60fcc-40f3-4b04-9c66-485499008c9a.filesusr.com/ugd/132a22_10acddd2d98747ed97eae09cef4f048e.pdf" target="_blank" rel="noopener noreferrer">
                     <button id="year-round-flyer">LEARN MORE ABOUT OUR PROGRAM HERE</button>
                 </a>
             </div>
