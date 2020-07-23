@@ -3,9 +3,7 @@
     font-size: 58px;
     text-align: center;
     line-height: normal;
-    margin-top: 0;
-    margin-bottom: 37px;
-    margin-right: calc((100% - 980px) * 0.5);
+    margin: 0 calc((100% - 980px) * 0.5) 37px;
 }
 
 #year-round-section p

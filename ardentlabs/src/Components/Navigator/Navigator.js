@@ -1,47 +1,71 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { HashLink as Link } from "react-router-hash-link";
+import * as Scroll from "react-scroll";
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from "react-scroll";
 import "./Navigator.css";
 
 export default function Navigator()
 {
     return (
         <div id="navigator">
-            <Link smooth to="/#root">
+            <Link activeClass="active" to="top-section" spy={true} smooth={true}>
                 <svg width="12" height="12" viewBox="0 0 24 24">
                     <circle cx="12" cy="12" r="10" />
                 </svg>
             </Link>
             
-            <Link smooth to="/#mission-section">
+            <Link activeClass="active" to="mission-section" spy={true} smooth={true} id="mission-navdot">
                 <svg width="12" height="12" viewBox="0 0 24 24">
                     <circle cx="12" cy="12" r="10" />
                 </svg>
             </Link>
             
-            <Link smooth to="#about-section">
+            <Link activeClass="active" to="about-section" spy={true} smooth={true} id="about-navdot">
                 <svg width="12" height="12" viewBox="0 0 24 24">
                     <circle cx="12" cy="12" r="10" />
                 </svg>
             </Link>
             
-            <Link smooth to="#portfolio-section">
+            <Link activeClass="active" to="portfolio-section" spy={true} smooth={true}>
                 <svg width="12" height="12" viewBox="0 0 24 24">
                     <circle cx="12" cy="12" r="10" />
                 </svg>
             </Link>
             
-            <Link smooth to="#internship-section">
+            <Link activeClass="active" to="internship-section" spy={true} smooth={true} id="internship-navdot">
                 <svg width="12" height="12" viewBox="0 0 24 24">
                     <circle cx="12" cy="12" r="10" />
                 </svg>
             </Link>
             
-            <Link smooth to="#contact-section">
+            <Link activeClass="active" to="footer" spy={true} smooth={true} id="footer-navdot" onSetActive={() => enterFooter("footer-navdot")} onSetInactive={() => leaveFooter("footer-navdot", "internship-navdot")}>
                 <svg width="12" height="12" viewBox="0 0 24 24">
                     <circle cx="12" cy="12" r="10" />
                 </svg>
             </Link>
         </div>
     );
+}
+
+function enterFooter(destination)
+{
+    let targets = document.querySelectorAll("#navigator a");
+    targets.forEach((target) => {
+        target.className = (target.id === destination) ? "active" : "";
+    });
+}
+
+function leaveFooter(start, end)
+{
+    let targets = document.querySelectorAll("#navigator a");
+    targets.forEach((target) => {
+        if (target.id === start)
+        {
+            target.className = "";
+        }
+        else if (target.id === end)
+        {
+            target.className = "active";
+        }
+    });
 }

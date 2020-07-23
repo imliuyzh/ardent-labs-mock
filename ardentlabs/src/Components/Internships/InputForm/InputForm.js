@@ -88,7 +88,6 @@ function handleOnMouseOver(event)
         event.target.style.borderColor = "rgba(255, 64, 64, 1)";
         event.target.style.backgroundColor = "rgba(255, 64, 64, 0.1)";
     }
-    console.log(event.target.style.borderLeftColor);
 }
 
 function handleOnMouseLeave(event)

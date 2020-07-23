@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./Internships.css";
-import InputForm from "./InputForm/InputForm";
+
 import Slide from "react-reveal/Slide";
+import InputForm from "./InputForm/InputForm";
 
 export default function Internships()
 {
@@ -40,7 +41,6 @@ jump start your career in product management.
                         Are you interested in developing a career and getting jobs at leading tech companies? Send us a short message and we will contact you shortly.
                     </h6>
                 </Slide>
-                
                 <InputForm />
             </div>
         </section>
