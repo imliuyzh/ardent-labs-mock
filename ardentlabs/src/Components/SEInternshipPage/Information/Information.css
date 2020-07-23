@@ -76,7 +76,7 @@ img[alt="person"]
 
 .info-block-description a
 {
-    font-family: "DIN Next Light";
+    font-family: "DIN Next Light", sans-serif;
     font-weight: bold;
     color: #ffffff;
     text-decoration: underline;
