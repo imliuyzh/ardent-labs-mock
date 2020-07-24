@@ -46,7 +46,7 @@ const MENTORS =
         ardentStatus: "Software Engineer at Ardent Labs",
         currentStatus: "Accepted intern at Amazon",
         icon: Kuixi
-    },
+    }
 ];
 
 export default function Information()
