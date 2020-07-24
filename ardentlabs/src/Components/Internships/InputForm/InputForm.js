@@ -1,8 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./InputForm.css";
 
 // Modified from https://github.com/manishsaraan/email-validator
+// eslint-disable-next-line
 const EXPRESSION = new RegExp("^[-0-9A-Z_a-z](\.?[-0-9A-Z_a-z])*@[a-zA-Z0-9](-*\.?[a-zA-Z0-9])*\.[a-zA-Z](-?[a-zA-Z0-9])+$");
 
 export default function InputForm()

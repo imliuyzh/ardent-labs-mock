@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./SelfDescription.css";
 
 export default function SelfDescription({ iconPath, title, description })

@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./Contact.css";
 
 import QuickLinks from "./QuickLinks/QuickLinks";
@@ -14,8 +13,7 @@ export default function Contact()
         <section id="contact-section">
             <div id="contact-content">
                 <img src={ArdentLabsLogo} alt="Ardent Labs Logo" id="footer-logo" />
-                
-                <div id="contact-sections">
+                <div id="contact-components">
                     <QuickLinks />
                     <ContactUs />
                     <Connect />

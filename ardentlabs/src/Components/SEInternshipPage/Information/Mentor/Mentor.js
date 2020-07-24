@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./Mentor.css";
 
 export default function Mentor({ name, ardentStatus, currentStatus, icon })

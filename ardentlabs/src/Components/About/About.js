@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./About.css";
 
 import { v4 } from "uuid";
@@ -35,9 +34,13 @@ export default function About()
             <h4 id="about-title">WHO WE ARE</h4>
             <div id="descriptions">
                 {DESCRIPTIONS.map((d) => 
-                    <SelfDescription key={v4()} iconPath={d.iconPath} title={d.title} description={d.description} />)}
+                    <SelfDescription
+                        key={v4()}
+                        iconPath={d.iconPath}
+                        title={d.title}
+                        description={d.description} />
+                )}
             </div>
         </section>
-        
     );
 }

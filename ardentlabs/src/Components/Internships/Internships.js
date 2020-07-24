@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./Internships.css";
 
 import Slide from "react-reveal/Slide";

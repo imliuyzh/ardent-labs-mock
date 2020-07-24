@@ -1,8 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { useLocation } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import "./Header.css";
+
 import ArdentLabsLogo from "../../Assets/img/ardentLabsLogo.webp";
 
 export default function Header()

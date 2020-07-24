@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./Information.css";
 
 import Mentor from "./Mentor/Mentor";
@@ -16,6 +15,40 @@ import Nisarg from "../../../Assets/img/nisarg.png";
 import Alvin from "../../../Assets/img/alvin.png";
 import Kuixi from "../../../Assets/img/kuixi.png";
 
+const MENTORS =
+[
+    {
+        name: "DANIAL",
+        ardentStatus: "Software Engineer at Ardent Labs",
+        currentStatus: "Full time job offer at Western Digital",
+        icon: Danial
+    },
+    {
+        name: "RYAN",
+        ardentStatus: "Software Engineer at Ardent Labs",
+        currentStatus: "Full time job offer at Amazon",
+        icon: Ryan
+    },
+    {
+        name: "NISARG",
+        ardentStatus: "Software Engineer at Ardent Labs",
+        currentStatus: "Full time job offer at Amazon",
+        icon: Nisarg
+    },
+    {
+        name: "ALVIN",
+        ardentStatus: "Software Engineer at Ardent Labs",
+        currentStatus: "Accepted intern at Amazon",
+        icon: Alvin
+    },
+    {
+        name: "KUIXI",
+        ardentStatus: "Software Engineer at Ardent Labs",
+        currentStatus: "Accepted intern at Amazon",
+        icon: Kuixi
+    },
+];
+
 export default function Information()
 {
     return (
@@ -25,7 +58,6 @@ export default function Information()
             { displayDuty() }
             { displayProgramDate() }
             { displayMentors() }
-            
             <div id="line" />
         </section>
     );
@@ -45,6 +77,7 @@ function displayInterningReason()
             <p className="info-block-description">
                 Our mission is to provide interns the support and resources needed to develop both professional and technical skills that will jump-start their career. Our last cohort of interns were accepted into major companies such as Google, Amazon, Walmart, Siemens, and Cerner Corporation.
             </p>
+            
             <p className="info-block-description" id="intern-reason-p2"> 
                 As an Ardent Labs intern, every task given to you is never trivial, makes an impact, and most importantly, helps you learn something new and improve upon your current skills. You will also have the rare opportunity to gain mentorship from our lead software engineers, who will guide you through industry-standard software development practices.
             </p>
@@ -84,6 +117,7 @@ function displayDuty()
             <p className="info-block-description">
                 During the 8-10 weeks internship, interns will work on learning the tools used by our products through completing milestone projects. There will be four milestone projects to work on throughout the program that interns can complete at their own pace.
             </p>
+
             <p className="info-block-description p2"> 
                 Interns will be required to work at least 10 hours per week to make sufficient progress on these projects.
             </p>
@@ -101,7 +135,7 @@ function displayProgramDate()
                     When does the program end?
                 </h2>
             </div>
-            
+
             <p className="info-block-description">
                 This virtual internship takes place during the duration of UCI's spring quarter. The internship will end on June 5th, and interns who are interested in the summer internship will need to send in another application around May 10th. To learn more about about our summer internships, <a href="https://ead60fcc-40f3-4b04-9c66-485499008c9a.filesusr.com/ugd/132a22_10acddd2d98747ed97eae09cef4f048e.pdf" target="_blank" rel="noopener noreferrer"> click here</a>.
             </p>
@@ -111,40 +145,6 @@ function displayProgramDate()
 
 function displayMentors()
 {
-    const MENTORS =
-    [
-        {
-            name: "DANIAL",
-            ardentStatus: "Software Engineer at Ardent Labs",
-            currentStatus: "Full time job offer at Western Digital",
-            icon: Danial
-        },
-        {
-            name: "RYAN",
-            ardentStatus: "Software Engineer at Ardent Labs",
-            currentStatus: "Full time job offer at Amazon",
-            icon: Ryan
-        },
-        {
-            name: "NISARG",
-            ardentStatus: "Software Engineer at Ardent Labs",
-            currentStatus: "Full time job offer at Amazon",
-            icon: Nisarg
-        },
-        {
-            name: "ALVIN",
-            ardentStatus: "Software Engineer at Ardent Labs",
-            currentStatus: "Accepted intern at Amazon",
-            icon: Alvin
-        },
-        {
-            name: "KUIXI",
-            ardentStatus: "Software Engineer at Ardent Labs",
-            currentStatus: "Accepted intern at Amazon",
-            icon: Kuixi
-        },
-    ];
-    
     return (
         <div className="info-block">
             <div className="info-section-heading">

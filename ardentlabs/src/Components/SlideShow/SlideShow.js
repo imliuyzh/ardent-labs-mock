@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./SlideShow.css";
 
 import Carousel from "nuka-carousel";

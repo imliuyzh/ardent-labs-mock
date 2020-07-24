@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import "./Background.css";
 
 import BlueParticles480p from "../../Assets/vid/blueParticles480p.mp4";

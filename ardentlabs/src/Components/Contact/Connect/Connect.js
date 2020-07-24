@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./Connect.css";
 
 import LinkedInLogo from "../../../Assets/img/linkedIn.png";

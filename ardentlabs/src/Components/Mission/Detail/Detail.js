@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./Detail.css";
 
 export default function Detail({ id, title, description })

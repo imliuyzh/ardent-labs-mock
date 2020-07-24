@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./Portfolio.css";
 
 import ArdentLogo from "../../Assets/img/ardentLogo.jpg";
