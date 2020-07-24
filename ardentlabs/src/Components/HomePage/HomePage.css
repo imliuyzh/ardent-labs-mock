@@ -3,6 +3,11 @@ body
     font-family: "DIN Next Light", sans-serif;
 }
 
+#top-section
+{
+    height: 823px;
+}
+
 #home-content
 {
     position: relative;

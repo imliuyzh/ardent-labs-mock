@@ -1,9 +1,6 @@
-#year-round-title
+#year-round-section
 {
-    font-size: 58px;
-    text-align: center;
-    line-height: normal;
-    margin: 0 calc((100% - 980px) * 0.5) 37px;
+    padding-bottom: 180px;
 }
 
 #year-round-section p
@@ -13,6 +10,14 @@
     font-weight: bold;
     line-height: 1.2em;
     color: #ffffff;
+}
+
+#year-round-title
+{
+    font-size: 58px;
+    text-align: center;
+    line-height: normal;
+    margin: 0 calc((100% - 980px) * 0.5) 37px;
 }
 
 #year-round-container a[href="https://ead60fcc-40f3-4b04-9c66-485499008c9a.filesusr.com/ugd/132a22_10acddd2d98747ed97eae09cef4f048e.pdf"]

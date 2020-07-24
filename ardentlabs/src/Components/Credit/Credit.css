@@ -1,7 +1,7 @@
 .credit-container
 {
     position: relative;
-    top: 180px;
+    top: 30px;
     padding: 22px 0px 19px calc((100% - 72vw) * 0.5);
     background-color: #ffffff;
 }
