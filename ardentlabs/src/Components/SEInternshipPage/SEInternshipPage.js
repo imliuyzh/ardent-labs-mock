@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./SEInternshipPage.css";
 
-import Background from "../Background/Background";
 import Header from "../Header/Header";
 import SEIPBanner from "./SEIPBanner/SEIPBanner";
 import Information from "./Information/Information";
@@ -13,9 +12,7 @@ export default function SEInternshipPage()
     React.useEffect(setTitle, []);
     return (
         <>
-            <Background />
             <Header />
-            
             <main>
                 <SEIPBanner />
                 <Information />

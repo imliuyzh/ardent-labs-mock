@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./HomePage.css";
 
-import Background from "../Background/Background";
 import Header from "../Header/Header";
 import Navigator from "../Navigator/Navigator";
 import Banner from "../Banner/Banner";
@@ -17,7 +16,6 @@ export default function HomePage()
     return (
         <>
             <div id="top-section">
-                <Background />
                 <Header />
                 <Banner />
             </div>
