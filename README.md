@@ -1,8 +1,8 @@
 # imliuyzh.github.io/ardent-labs-mock/#/
-This repository contains my first-ever React project that attempts to clone [ardentlabs.io](ardentlabs.io). It is one of the four milestones that every intern must complete before they can move on to the next step. As for now, it is recommended to view the website in a traditional PC device because it is not responsive for mobile devices.
+This repository contains my first React project that attempts to clone [ardentlabs.io](ardentlabs.io). It is one of the four milestones that every intern must complete before they can move on. As of now, it is recommended to view the website in a traditional PC device because it is not responsive for mobile devices.
 
 ## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development purposes.
 
 ### Running the Application
 1. Install Node.js
@@ -12,7 +12,7 @@ These instructions will get you a copy of the project up and running on your loc
 5. Hit `Ctrl+C` to stop running
 
 ### Built With
-- Node.js
+- Node.js (with npm)
 - React (installed with create-react-app)
 - React Router
 - UUID
