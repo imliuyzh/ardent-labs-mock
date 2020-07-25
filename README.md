@@ -23,7 +23,7 @@ These instructions will get you a copy of the project up and running on your loc
 P.S. The whole application is written in Ubuntu 19.04 at the time of this writing.
 
 ## Versioning
-I used only Git bash for version managing. There are a lot of great tutorials online that teach people about it.
+I used only Git bash for version management.
 
 ## Acknowledgments
 I want to say thank you to my fellow interns in Ardent Academy for their assistance. Also, kudos to Dr. Li for providing this amazing opportunity to let me work in Ardent.
