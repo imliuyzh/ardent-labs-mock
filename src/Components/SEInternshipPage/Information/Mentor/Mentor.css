@@ -1,0 +1,52 @@
+.mentor-container
+{
+    margin: 0 0 79px;
+    display: flex;
+    align-items: center;
+}
+
+.mentor-container img
+{
+    width: 160px;
+    border-radius: 50%;
+}
+
+.mentor-info-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    left: 30px;
+    width: 238px;
+}
+
+.mentor-name
+{
+    margin: 38px 0 12px;
+    font-family: "Helvetica Roman", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    color: #ffffff;
+}
+
+.ardent-status
+{
+    margin: 0 0 12px;
+    font-family: "Avenir LT Heavy", sans-serif;
+    font-size: 18px;
+    line-height: 1.3em;
+    color: #ffffff;
+}
+
+.current-status
+{
+    margin: 0 0 10px;
+    font-family: "Avenir LT Light", sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.35em;
+    color: #f2f2f2;
+}

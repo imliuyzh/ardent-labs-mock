@@ -1,0 +1,10 @@
+#banner-heading
+{
+    font-family: "DIN Next Light", sans-serif;
+    font-size: 88px;
+    font-weight: 1;
+    color: #FFFFFF;
+    line-height: 1em;
+    text-align: left;
+    margin: 70px 0px 60px calc((100% - 980px) * 0.5);
+}

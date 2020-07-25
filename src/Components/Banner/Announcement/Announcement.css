@@ -1,0 +1,17 @@
+.announcement
+{
+    margin: 58.3px 0 70px;
+    font-family: "Avenir LT Light", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+#internship-link
+{
+    font-family: "Avenir LT Light", sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #ffffff;
+}

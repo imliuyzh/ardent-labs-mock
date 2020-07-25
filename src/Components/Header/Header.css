@@ -1,0 +1,70 @@
+#header-section
+{
+    padding: 44px 0 0 calc((100% - 980px) / 2);
+    display: flex;
+    align-items: baseline;
+    z-index: 1;
+}
+
+#nav-links
+{
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    left: 118px;
+    bottom: 4px;
+}
+
+.dropdown-menu
+{
+    display: inline-block;
+    text-align: center;
+    line-height: 29px;
+}
+
+.dropdown-button
+{
+    background-color: transparent;
+    border: none;
+    margin-left: 0;
+}
+
+.link, .dropdown-button
+{
+    font-family: "DIN Next Light";
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0 20px 0 0;
+    transition: color 0.4s ease 0s;
+    cursor: pointer;
+}
+
+.link:hover, .dropdown-menu:hover .dropdown-button
+{
+    color: #a2ecf3;
+}
+
+.dropdown-content
+{
+    display: none;
+    background-color: rgba(63, 96, 151, 0.6);
+    margin: 0;
+}
+
+.dropdown-menu:hover .dropdown-content
+{
+    display: block;
+    position: absolute;
+    z-index: 0;
+}
+
+.dropdown-content *
+{
+    padding: 0 3.7px;
+}
+
+.active
+{
+    color: #a2ecf3;
+}

@@ -1,0 +1,15 @@
+.credit-container
+{
+    position: relative;
+    top: 30px;
+    padding: 22px 0px 19px calc((100% - 72vw) * 0.5);
+    background-color: #ffffff;
+}
+
+#credit-text
+{
+    position: relative;
+    left: 250px;
+    color: #00d2d4;
+    font-size: 14px;
+}

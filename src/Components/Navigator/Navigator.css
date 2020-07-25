@@ -1,0 +1,39 @@
+#navigator
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 80px;
+    z-index: 2;
+    width: 32px;
+    height: 197px;
+    position: fixed;
+    left: 92.84%;
+    top: 18.2%;
+}
+
+circle
+{
+    fill: transparent;
+    stroke: rgba(162, 236, 243, 1);
+    stroke-width: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#navigator a
+{
+    width: 8px;
+    height: 8px;
+    border-color: rgb(162, 236, 243);
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 2px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#navigator a:hover, #navigator .active
+{
+    background-color: rgb(162, 236, 243);
+}
