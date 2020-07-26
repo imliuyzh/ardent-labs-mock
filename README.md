@@ -6,7 +6,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Running the Application
 1. Install Node.js
-2. Go to the directory in the command line you want to set up the application and clone this repository with `git clone`
+2. Download/clone this repository to somewhere else and navigate to the folder in the command line
 3. Open the `ardent-labs-mock` folder and type `npm install` to do all the necessary work before you run this application
 4. Type `npm start` to run. It should be running on `localhost:3000` unless you have other applications running simultaneously
 5. Hit `Ctrl+C` to stop running
