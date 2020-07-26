@@ -1,4 +1,4 @@
-# imliuyzh.github.io/ardent-labs-mock/#/
+# imliuyzh.github.io/ardent-labs-mock
 This repository contains my first React project that attempts to clone [ardentlabs.io](ardentlabs.io). It is one of the four milestones that every intern must complete before they can move on. As of now, it is recommended to view the website in a traditional PC device because it is not responsive for mobile devices.
 
 ## Getting Started
