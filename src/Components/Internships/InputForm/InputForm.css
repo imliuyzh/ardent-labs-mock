@@ -28,6 +28,11 @@
     color: #646666;
 }
 
+#email:hover
+{
+    width: calc(100% + 2px);
+}
+
 #message
 {
     height: 126px;
@@ -40,6 +45,7 @@
 {
     border: 2px solid rgb(0, 210, 212);
     background-color: rgb(204, 204, 202);
+    width: calc(100% + 2px);
 }
 
 #submit
