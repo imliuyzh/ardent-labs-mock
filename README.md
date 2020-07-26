@@ -12,7 +12,6 @@ These instructions will get you a copy of the project up and running on your loc
 5. Hit `Ctrl+C` to stop running
 
 ### Built With
-- Node.js (with npm)
 - React (installed with create-react-app)
 - React Router
 - UUID
