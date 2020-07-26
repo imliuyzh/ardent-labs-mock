@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ardent-labs-mock/precache-manifest.c2bbc12141ab55666c5c959f7cf7a319.js"
+  "/ardent-labs-mock/precache-manifest.3a1fdcea469d449d7340092ed9b00e10.js"
 );
 
 self.addEventListener('message', (event) => {

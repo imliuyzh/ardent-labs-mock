@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "65e0dbd89e6e20afcd61f623c7028c93",
+    "revision": "edfafd636e0ced814ca75f358f15b8c6",
     "url": "/ardent-labs-mock/index.html"
   },
   {
-    "revision": "ccc94574d8a98a46215a",
-    "url": "/ardent-labs-mock/static/css/main.97e40d14.chunk.css"
+    "revision": "0dfddf6e30031f1034e4",
+    "url": "/ardent-labs-mock/static/css/main.2b2a4772.chunk.css"
   },
   {
     "revision": "4a92c944405464b55051",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ardent-labs-mock/static/js/2.2ae54875.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ccc94574d8a98a46215a",
+    "revision": "0dfddf6e30031f1034e4",
     "url": "/ardent-labs-mock/static/js/main.211b3b3e.chunk.js"
   },
   {
