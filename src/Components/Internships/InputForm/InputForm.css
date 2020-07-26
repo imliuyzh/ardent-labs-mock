@@ -1,6 +1,6 @@
 #internship-contact-section
 {
-    margin: 0 0 0 calc((100% - 72vw) * 0.5);
+    margin: 0 calc((100% - 72vw) * 0.5);
     display: flex;
     align-items: center;
 }
@@ -10,14 +10,14 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    flex: 2.5;
 }
 
 .form
 {
     font-size: 14px;
-    border-width: 3px;
-    border-color: rgba(100, 102, 102, 1);
-    width: calc(0.47 * 100vw);
+    border: 3px solid rgba(100, 102, 102, 1);
+    width: 100%;
 }
 
 #email
@@ -38,8 +38,7 @@
 
 #message:hover
 {
-    border-width: 2px;
-    border-color: rgb(0, 210, 212);
+    border: 2px solid rgb(0, 210, 212);
     background-color: rgb(204, 204, 202);
 }
 

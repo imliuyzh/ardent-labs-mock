@@ -1,8 +1,8 @@
 .mentor-container
 {
-    margin: 0 0 79px;
+    margin: 30px 0 90px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .mentor-container img
@@ -17,13 +17,14 @@
     flex-direction: column;
     align-items: flex-start;
     position: relative;
+    top: 18px;
     left: 30px;
     width: 238px;
 }
 
 .mentor-name
 {
-    margin: 38px 0 12px;
+    margin: 0 0 8px;
     font-family: "Helvetica Roman", sans-serif;
     font-size: 32px;
     font-weight: bold;
@@ -33,7 +34,7 @@
 
 .ardent-status
 {
-    margin: 0 0 12px;
+    margin: 0 0 8px;
     font-family: "Avenir LT Heavy", sans-serif;
     font-size: 18px;
     line-height: 1.3em;

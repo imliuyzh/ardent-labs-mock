@@ -34,23 +34,16 @@ export default function InputForm()
 function handleOnClick(event)
 {
     if (event.target.style.backgroundColor === "rgb(255, 255, 255)"
-        || EXPRESSION.exec(event.target.value) !== null)
+        || EXPRESSION.exec(event.target.value) !== null
+        || event.target.style.backgroundColor === "rgba(204, 204, 202, 1)")
     {
-        event.target.style.borderWidth = "2px";
-        event.target.style.borderColor = "rgba(0, 210, 212, 1)";
+        event.target.style.border = "2px solid rgba(0, 210, 212, 1)";
         event.target.style.backgroundColor = "rgba(204, 204, 202, 1)";
     }
     else if (event.target.style.backgroundColor === "rgba(255, 64, 64, 0.1)")
     {
-        event.target.style.borderWidth = "1px";
-        event.target.style.borderColor = "rgba(255, 64, 64, 1)";
+        event.target.style.border = "1px solid rgba(255, 64, 64, 1)";
         event.target.style.backgroundColor = "rgba(255, 64, 64, 0.1)";
-    }
-    else if (event.target.style.backgroundColor === "rgba(204, 204, 202, 1)")
-    {
-        event.target.style.borderWidth = "2px";
-        event.target.style.borderColor = "rgba(0, 210, 212, 1)";
-        event.target.style.backgroundColor = "rgba(204, 204, 202, 1)";
     }
 }
 
@@ -61,14 +54,12 @@ function handleOnChange(event)
     {
         if (EXPRESSION.exec(event.target.value) !== null)
         {
-            event.target.style.borderWidth = "2px";
-            event.target.style.borderColor = "rgba(0, 210, 212, 1)";
+            event.target.style.border = "2px solid rgba(0, 210, 212, 1)";
             event.target.style.backgroundColor = "rgba(204, 204, 202, 1)";
         }
         else
         {
-            event.target.style.borderWidth = "1px";
-            event.target.style.borderColor = "rgba(255, 64, 64, 1)";
+            event.target.style.border = "1px solid rgba(255, 64, 64, 1)";
             event.target.style.backgroundColor = "rgba(255, 64, 64, 0.1)";
         }
     }
@@ -78,14 +69,12 @@ function handleOnMouseOver(event)
 {
     if (["rgb(255, 255, 255)", ""].includes(event.target.style.backgroundColor))
     {
-        event.target.style.borderWidth = "2px";
-        event.target.style.borderColor = "rgba(0, 210, 212, 1)";
+        event.target.style.border = "2px solid rgba(0, 210, 212, 1)";
         event.target.style.backgroundColor = "rgba(204, 204, 202, 1)";
     }
     else if (event.target.style.backgroundColor === "rgba(255, 64, 64, 0.1)")
     {
-        event.target.style.borderWidth = "1px";
-        event.target.style.borderColor = "rgba(255, 64, 64, 1)";
+        event.target.style.border = "1px solid rgba(255, 64, 64, 1)";
         event.target.style.backgroundColor = "rgba(255, 64, 64, 0.1)";
     }
 }
@@ -95,14 +84,12 @@ function handleOnMouseLeave(event)
     if (["rgb(204, 204, 202)", ""].includes(event.target.style.backgroundColor)
         || EXPRESSION.exec(event.target.value) !== null)
     {
-        event.target.style.borderWidth = "3px";
-        event.target.style.borderColor = "rgba(100, 102, 102, 1)";
+        event.target.style.border = "3px solid rgba(100, 102, 102, 1)";
         event.target.style.backgroundColor = "rgb(255, 255, 255, 1)";
     }
     else
     {
-        event.target.style.borderWidth = "1px";
-        event.target.style.borderColor = "rgba(255, 64, 64, 1)";
+        event.target.style.border = "1px solid rgba(255, 64, 64, 1)";
         event.target.style.backgroundColor = "rgba(255, 64, 64, 0.1)";
     }
 }

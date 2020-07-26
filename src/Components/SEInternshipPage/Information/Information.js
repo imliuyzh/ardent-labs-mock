@@ -166,7 +166,7 @@ function displayMentors()
                                     ardentStatus={mentor.ardentStatus}
                                     currentStatus={mentor.currentStatus}
                                     icon={mentor.icon} />
-                )};
+                )}
             </div>
         </div>
     );
