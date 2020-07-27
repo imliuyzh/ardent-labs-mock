@@ -39,11 +39,13 @@ function handleOnClick(event)
     {
         event.target.style.border = "2px solid rgba(0, 210, 212, 1)";
         event.target.style.backgroundColor = "rgba(204, 204, 202, 1)";
+        event.target.style.width = "calc(100% + 2px)";
     }
     else if (event.target.style.backgroundColor === "rgba(255, 64, 64, 0.1)")
     {
         event.target.style.border = "1px solid rgba(255, 64, 64, 1)";
         event.target.style.backgroundColor = "rgba(255, 64, 64, 0.1)";
+        event.target.style.width = "calc(100% + 4px)";
     }
 }
 
@@ -56,11 +58,13 @@ function handleOnChange(event)
         {
             event.target.style.border = "2px solid rgba(0, 210, 212, 1)";
             event.target.style.backgroundColor = "rgba(204, 204, 202, 1)";
+            event.target.style.width = "calc(100% + 2px)";
         }
         else
         {
             event.target.style.border = "1px solid rgba(255, 64, 64, 1)";
             event.target.style.backgroundColor = "rgba(255, 64, 64, 0.1)";
+            event.target.style.width = "calc(100% + 4px)";
         }
     }
 }
@@ -71,11 +75,13 @@ function handleOnMouseOver(event)
     {
         event.target.style.border = "2px solid rgba(0, 210, 212, 1)";
         event.target.style.backgroundColor = "rgba(204, 204, 202, 1)";
+        event.target.style.width = "calc(100% + 2px)";
     }
     else if (event.target.style.backgroundColor === "rgba(255, 64, 64, 0.1)")
     {
         event.target.style.border = "1px solid rgba(255, 64, 64, 1)";
         event.target.style.backgroundColor = "rgba(255, 64, 64, 0.1)";
+        event.target.style.width = "calc(100% + 4px)";
     }
 }
 
@@ -86,10 +92,12 @@ function handleOnMouseLeave(event)
     {
         event.target.style.border = "3px solid rgba(100, 102, 102, 1)";
         event.target.style.backgroundColor = "rgb(255, 255, 255, 1)";
+        event.target.style.width = "100%";
     }
     else
     {
         event.target.style.border = "1px solid rgba(255, 64, 64, 1)";
         event.target.style.backgroundColor = "rgba(255, 64, 64, 0.1)";
+        event.target.style.width = "calc(100% + 4px)";
     }
 }
