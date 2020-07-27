@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ardent-labs-mock/static/css/main.2b2a4772.chunk.css",
-    "main.js": "/ardent-labs-mock/static/js/main.211b3b3e.chunk.js",
-    "main.js.map": "/ardent-labs-mock/static/js/main.211b3b3e.chunk.js.map",
+    "main.css": "/ardent-labs-mock/static/css/main.6b64165a.chunk.css",
+    "main.js": "/ardent-labs-mock/static/js/main.61e50b84.chunk.js",
+    "main.js.map": "/ardent-labs-mock/static/js/main.61e50b84.chunk.js.map",
     "runtime-main.js": "/ardent-labs-mock/static/js/runtime-main.14b630e2.js",
     "runtime-main.js.map": "/ardent-labs-mock/static/js/runtime-main.14b630e2.js.map",
     "static/js/2.2ae54875.chunk.js": "/ardent-labs-mock/static/js/2.2ae54875.chunk.js",
     "static/js/2.2ae54875.chunk.js.map": "/ardent-labs-mock/static/js/2.2ae54875.chunk.js.map",
     "index.html": "/ardent-labs-mock/index.html",
-    "precache-manifest.3a1fdcea469d449d7340092ed9b00e10.js": "/ardent-labs-mock/precache-manifest.3a1fdcea469d449d7340092ed9b00e10.js",
+    "precache-manifest.990fd3f5770ab7a4010a9b72be1a684b.js": "/ardent-labs-mock/precache-manifest.990fd3f5770ab7a4010a9b72be1a684b.js",
     "service-worker.js": "/ardent-labs-mock/service-worker.js",
-    "static/css/main.2b2a4772.chunk.css.map": "/ardent-labs-mock/static/css/main.2b2a4772.chunk.css.map",
+    "static/css/main.6b64165a.chunk.css.map": "/ardent-labs-mock/static/css/main.6b64165a.chunk.css.map",
     "static/js/2.2ae54875.chunk.js.LICENSE.txt": "/ardent-labs-mock/static/js/2.2ae54875.chunk.js.LICENSE.txt",
     "static/media/alvin.png": "/ardent-labs-mock/static/media/alvin.a882bd4e.png",
     "static/media/ardentLabsLogo.webp": "/ardent-labs-mock/static/media/ardentLabsLogo.383ec457.webp",
@@ -44,7 +44,7 @@
   "entrypoints": [
     "static/js/runtime-main.14b630e2.js",
     "static/js/2.2ae54875.chunk.js",
-    "static/css/main.2b2a4772.chunk.css",
-    "static/js/main.211b3b3e.chunk.js"
+    "static/css/main.6b64165a.chunk.css",
+    "static/js/main.61e50b84.chunk.js"
   ]
 }
